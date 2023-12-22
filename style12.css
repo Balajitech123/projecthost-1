@@ -1,11 +1,13 @@
 body{
     margin: 0;
     font-family: sans-serif;
-    background-color: aqua;
+    background-color:whitesmoke;
 }
+
 .section h2{
-    margin: 0;
+    margin: auto;
     background-color: rgb(183, 0, 255);
+    width: max-content;
 }
 .section{
     background-color:black;
@@ -13,12 +15,16 @@ body{
     justify-content: space-between;
     padding: 20px;
     width: 80%;
-    margin-left: 50px;
+   margin:3%auto;
 
 }
+.text{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 .section img{
-    height:500;
-    width: 300px;
+    height:auto;
+    width:100%;
     margin-bottom:60px;
 }
 .section p{
@@ -26,9 +32,11 @@ body{
     margin-right: 15px;
 }
 h1{
+    padding:10px;
     text-align: center;
-    margin: 0;
-    background-color: yellow;
+    background-color: rgb(88, 111, 106);
+    width: max-content;
+    margin:3%auto;
 }
 h3{
     color:rgb(165, 42, 104);
@@ -46,21 +54,25 @@ h3{
     background-size: cover;
     padding: 20px;
     width: 80%;
-    margin-left: 50px;
+    margin:auto;
     border-radius:20px ;
     text-align:center ;
+    text-wrap: wrap;
 
 }
 .data{ 
-    color:rgb(161, 42, 165);
-    border: 3px rgb(255, 0, 119) solid;
+    color:rgb(8, 36, 39);
+    border: 3px rgb(211, 221, 226) solid;
+    box-shadow: 3px 2px 4px 2px;
     text-align:left;
     border-radius:20px;
-    background-color:greenyellow;
+    background-color:rgb(202, 211, 220);
     padding: 20px;
-    width: 80%;
-    margin: 16px 0px;
-    margin-left: 50px;
+    width:80%;
+    margin:3%auto;
+    text-wrap: wrap;
+   
+
 
 }
 h2{
@@ -74,73 +86,120 @@ h2{
 }
 .naruto{
   display: block;
-  margin-left:250px ;
-  margin-right:40px;
+  margin:auto;
+  width: 50%;
+  height: 50%;
+  margin-right: 100px;
+  position: relative;
 }
+.details{
+    font-size: medium;
+    color:rgb(0, 60, 128);
+    margin:3%auto;
+    width:max-content;
+    padding: 20px;
+    text-wrap: wrap;
+
+}
+
 h4{
     text-align: center;
     color: darkgreen;
 }
 .sslc{
-    border: 5px rgba(0, 255, 34, 0.247) solid;
+    border: 5px white solid;
     border-radius:30px;
-    background-color:rgb(255, 130, 47);
+    box-shadow:3px 3px 2px 4px ;
+    background-color:rgb(29, 207, 162);
     padding: 20px;
     width: 50%;
-    margin-left: 235px;
+    margin:auto;
     text-align: center;
 
 }
 .hsc{
-    border:5px rgb(0, 17, 255) solid;
+    border:5px white solid;
     border-radius:30px ;
-    background-color: rgb(161, 42, 165);
+    box-shadow:3px 3px 2px 4px ;
+    background-color:rgb(29, 207, 162);
     padding:20px ;
     width:50% ;
-    margin-left:235px ;
+    margin:auto ;
     text-align: center;
 }
 .health{
-    border:5px rgb(255, 0, 255) solid;
+    border:5px white solid;
     border-radius:30px ;
-    background-color: rgb(141, 226, 130);
+    box-shadow:3px 3px 2px 4px ;
+    background-color: rgb(29, 207, 162);
     padding:20px ;
     width:50% ;
-    margin-left:235px ;
+    margin:auto;
+    text-wrap: wrap;
     text-align: center;
+}
+.js{
+    width: 300px;
+    margin: auto;
 }
 .js img{
    width:300px;
-   height: 250px;
+   height:250px;
    object-fit:contain ;
-   margin-left: 350px;
+   margin:auto;
    border: rgb(16, 20, 17)solid;
    border-radius: 70px;
+   box-shadow: 3px 3px 5px 5px rgb(17, 16, 20);
+   background-color: white;
 
+}
+.html{
+    width: 300px;
+    margin: auto;
 }
 .html img{
     width:300px;
     height: 250px;
     object-fit:contain ;
-    margin-left: 350px;
+    margin:auto;
     border: rgb(17, 16, 20)solid;
     border-radius: 70px;
+    box-shadow: 3px 3px 5px 5px rgb(17, 16, 20);
+    background-color: white;
+}
+.style{
+    width: 300px;
+    margin: auto;
 }
 .style img{
     width:300px;
     height:250px;
     object-fit:contain ;
-    margin-left: 350px;
+    margin:auto;
     border: rgb(18, 20, 16)solid;
     border-radius: 70px;
+    box-shadow: 3px 3px 5px 5px rgb(17, 16, 20);
+    background-color: white;
+
+}
+.boost{
+    width: 300px;
+    margin: auto;
 }
 .boost img{
     width:300px;
     height:250px;
     object-fit:contain ;
-    margin-left: 350px;
+    margin:auto;
     border: rgb(17, 16, 20)solid;
-    border-radius: 70px;
+    border-radius:70px;
+    box-shadow: 3px 3px 5px 5px rgb(17, 16, 20);
+    animation: forwards;
+    background-color: white;
+}
+.container{
+    margin: auto;
+    width: 80%;
 }
 
 .body{
@@ -154,7 +213,7 @@ h4{
     background-size: cover;
     padding: 20px;
     width:80%;
-    margin-left: 50px;
+    margin: auto;
     border-radius:20px ;
     text-align:center ;
     
@@ -168,7 +227,7 @@ form{
     box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.904);
     border-radius: 25px;
     border-left: 1px solid orangered;
-    margin-left: 240px;
+    margin:auto;
     
   
 }
@@ -189,7 +248,7 @@ input{
 }
 button{
     width: 50%;
-    margin: 3%auto;
+    margin:3%auto;
     color:green;
     box-shadow: 3px 3px 5px rgba(255, 255, 255, 0.904);
 }
@@ -198,3 +257,95 @@ a{
     text-align: center;
     color: aquamarine;
 }
+.card h1{
+   background-color: aliceblue;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  
+  button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  
+  button:hover, a:hover {
+    opacity: 0.7;
+  }
+  .aref {
+    font-family: Arial, Helvetica, sans-serif;
+
+ 
+  }
+  
+  .mobile-container {
+    max-width: 480px;
+    margin:auto;
+    background-color: #555;
+    height:100px;
+    color: white;
+    border-radius: 10px;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  .topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+    color: white;
+  }
+ 
+
+
+
